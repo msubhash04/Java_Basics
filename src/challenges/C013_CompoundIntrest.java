@@ -2,10 +2,10 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Challenge013 {
+public class C013_CompoundIntrest {
     public static void main(String[] args) {
-        //Write a JAVA Program to calculate the simple interest...
-        //Simple Interest = P(1 + R/100)T
+        //Write a JAVA Program to calculate the Compound interest...
+        //Compound Interest = P(1 + R/100)T
 
         Scanner input = new Scanner(System.in);
         System.out.println("To Calculate the Compound Interest\n Need to enter the Principal Amount, Time periode and Rate of interest annually");
@@ -14,6 +14,7 @@ public class Challenge013 {
         System.out.print("Enter the Time Periode : ");
         int timePeriod = input.nextInt();
         System.out.print("Enter the Rate of intrest annually : ");
+
         float intrestRate = input.nextFloat();
 
         double simpleIntrest = getCompoundIntrest(principalAmt, timePeriod, intrestRate);

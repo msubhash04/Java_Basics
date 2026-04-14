@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Challenge009 {
+public class C009_ProductOfTwoFloatingNumber {
 
     public static void main(String[] args) {
         //Write a Java Program to calculate the Product of the two floating point numbers.
@@ -13,7 +13,7 @@ public class Challenge009 {
         System.out.print("Enter the second floating point value : ");
         float secondInput = input.nextFloat();
 
-        Challenge009 ch = new Challenge009();
+        C009_ProductOfTwoFloatingNumber ch = new C009_ProductOfTwoFloatingNumber();
         float prodNo = ch.productOfFloatingNumber(firstInput,secondInput);
         System.out.println("The Product of the "+firstInput+" and "+secondInput+" is  "+prodNo);
 

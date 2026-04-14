@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Challenge008 {
+public class C008_ArithmaticOperations {
     public static void main(String[] args) {
         //Write a Java Program which takes 2 inputs and gives result for the "+ - * / %" all of these Arithmetic operations.
         Scanner input = new Scanner(System.in);

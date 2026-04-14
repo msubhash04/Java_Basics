@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Challenge011 {
+public class C011_AreaOfTriangle {
     public static void main(String[] args) {
         //Write a JAVA Program to display the area of a Triangle...
         //Area = 1/2* B * H

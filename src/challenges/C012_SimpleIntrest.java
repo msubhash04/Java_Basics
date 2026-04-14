@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Challenge012 {
+public class C012_SimpleIntrest {
     public static void main(String[] args) {
         //Write a JAVA Program to calculate the simple interest...
         //Simple Interest = (P * T * R)/100

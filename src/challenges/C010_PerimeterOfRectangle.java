@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Challenge010 {
+public class C010_PerimeterOfRectangle {
     public static void main(String[] args) {
         //Write a JAVA program to display the perimeter of a rectangle.
         // ABCD = A + B + C + D;
