@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class SumTwoNumbers {
+public class C007_SumTwoNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to our calculator");
