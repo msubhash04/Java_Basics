@@ -26,5 +26,8 @@ public class C017_GreatestOfThree {
             else
                 System.out.println("The "+thirdNumber+" is greater then the "+firstNumber+" and "+secondNumber);
         }
+
+        int result = (firstNumber>secondNumber) ? ((firstNumber>thirdNumber)? firstNumber : thirdNumber) : ((secondNumber>thirdNumber) ? secondNumber : thirdNumber);
+        System.out.println("The greatest among three numbers is "+result);
     }
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C007_SumTwoNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to our calculator");
+        System.out.println("Welcome to Simple calculator");
         System.out.println("Enter the first number :  ");
         int firstNumber = input.nextInt();
         System.out.println("Enter the second number : ");

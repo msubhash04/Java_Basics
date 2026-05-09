@@ -14,7 +14,7 @@ public class C010_PerimeterOfRectangle {
         System.out.print("Enter the Width of the rectangle : ");
         int width = input.nextInt();
         System.out.println("*******************************************");
-        int perimeter = (width <= 0 || length <= 0) ? 0:(2 * (length + width));
+        int perimeter = (width <= 0 || length <= 0) ? 0:(2 * (length + width)); //Using the ternary operator.
         System.out.println(" The Perimeter of the rectangle is : "+perimeter);
 
     }
