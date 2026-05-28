@@ -4,8 +4,6 @@ class AlphaInheritance {
     static int age;
     int id;
 
-
-
     AlphaInheritance()
     {
         this(5);
