@@ -14,10 +14,10 @@ class Alpha{
     int num2;
     int a;
     static{
-        System.out.println(" Static Block ");
+        System.out.println(" Static Block "+num1);
     }
     {
-        System.out.println(" Non Static Block ");
+        System.out.println(a+" Non Static Block "+num2);
     }
 
     Alpha(){

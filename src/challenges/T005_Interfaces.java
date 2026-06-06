@@ -98,5 +98,8 @@ public class T005_Interfaces {
         s1.models(i2);
         System.out.println("===========================================");
         s1.models(new Mahindra());
+
+        Object o = "Tharun";
+        String s = (String) o;
     }
 }

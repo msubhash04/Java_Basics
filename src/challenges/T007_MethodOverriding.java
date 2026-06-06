@@ -12,7 +12,7 @@ class ChildMarry extends ParentMarry{
     //Overridding method
     public void marry()
     {
-        System.out.println("Extra ordinary girl who looks good my self i will select");
+        System.out.println("Extra ordinary girl who looks good, my self i will select");
     }
 }
 
@@ -24,7 +24,7 @@ public class T007_MethodOverriding {
        ChildMarry c1 = new ChildMarry();
        c1.marry();
 
-       ParentMarry p2 = new ChildMarry();   //Method hiding concept
+       ParentMarry p2 = new ChildMarry();   //Method hiding concept  when the methods are static in parent
        p2.marry();
 
     }
