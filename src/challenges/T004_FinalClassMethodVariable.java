@@ -35,6 +35,8 @@ public class T004_FinalClassMethodVariable {
     public static void main(String[] args) {
 
         FinalExample2 fe = new FinalExample2();
+        FinalExample f = new FinalExample();
         fe.test();   //2001
+        f.test1();
     }
 }

@@ -3,8 +3,8 @@ package challenges;
 public class T001_StaticAndNonStaticExamples {
     public static void main(String[] args) {
         System.out.println(" Main Method ");
-//        Alpha.staticFunction();
-        Alpha a1 = new Alpha();
+        Alpha.staticFunction();
+//        Alpha a1 = new Alpha();
 //        a1.nonStaticFunction();
     }
 }
