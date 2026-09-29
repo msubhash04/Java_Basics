@@ -31,7 +31,7 @@ public class BufferWriterFileIO {
             buffWriter.write(chArr);
 
         } catch (Exception e) {
-            System.out.println("Exception occured in the BufferWriterFileIO  "+e.toString());
+            System.out.println("Exception occured in the BufferWriterFileIO "+e.toString());
         }finally {
             try {
                 buffWriter.flush();
