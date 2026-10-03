@@ -17,5 +17,7 @@ public class Challenge_021 {
 
         OptionalDouble avg = personList.stream().mapToInt(Person::getAge).average();
         System.out.println("The average age of the list of persons :  "+avg.getAsDouble());
+
+
     }
 }
