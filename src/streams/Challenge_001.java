@@ -8,7 +8,9 @@ public class Challenge_001 {
     public static void main(String[] args) {
         //Filter Even numbers from the list...
         List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-        List<Integer> result = numbers.stream().filter(n -> n%2==0).collect(Collectors.toList());
+//        List<Integer> result = numbers.stream().filter(n -> n%2==0).collect(Collectors.toList());
+        List<Integer> result = numbers.stream().filter(n -> n%2==0).toList();
         System.out.println("The List after the filter : "+result);
+
     }
 }

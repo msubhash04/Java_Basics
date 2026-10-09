@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Challenge_017 {
     public static void main(String[] args) {
+        //Flatten the list of list...
         List<List<Integer>> listOfLists= Arrays.asList(
                 Arrays.asList(1,2,3),
                 Arrays.asList(4,5),
