@@ -16,11 +16,17 @@ public class Challenge_025 {
                 new Emploed(105,"Santu","Finance",36000)
         );
 
-        Map<String, Double> result = emploedList.stream().collect(Collectors.groupingBy(Emploed::getDepartment,Collectors.averagingDouble(Emploed::getSalary)));
+        //Map<String, Double> result = emploedList.stream().collect(Collectors.groupingBy(Emploed::getDepartment,Collectors.averagingDouble(Emploed::getSalary)));
 //        System.out.println("The list of Employees "+result);
 
         //By using the lamda expressions...
-        result.forEach((k,v) -> {
+//        result.forEach((k,v) -> {
+//            System.out.println(k+"  -  "+v);
+//        });
+
+
+        Map<String, Double> collect = emploedList.stream().collect(Collectors.groupingBy(Emploed::getDepartment, Collectors.averagingDouble(Emploed::getSalary)));
+        collect.forEach((k,v) -> {
             System.out.println(k+"  -  "+v);
         });
     }

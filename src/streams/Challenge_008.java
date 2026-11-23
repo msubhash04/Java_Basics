@@ -15,6 +15,8 @@ public class Challenge_008 {
         Optional<Integer> maxNum = numbers.stream().reduce(Integer::max);
         System.out.println("The maximum number from the List is : "+maxNum.get());
         Optional<Integer> first = numbers.stream().sorted(Comparator.reverseOrder()).findFirst();
-        System.out.println(first);
+        System.out.println(first.get());
+
+
     }
 }

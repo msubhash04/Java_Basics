@@ -19,9 +19,14 @@ public class Challenge_027 {
                 new Emploed(106,"Paul","IT",40000)
         );
 
-        Map<String, Long> result = emploedList.stream().collect(Collectors.groupingBy(Emploed::getDepartment, Collectors.counting()));
-//        System.out.println(result);
-        List<Map.Entry<String, Long>> list = result.entrySet().stream().filter(e -> e.getValue() > 1).toList();
+//        Map<String, Long> result = emploedList.stream().collect(Collectors.groupingBy(Emploed::getDepartment, Collectors.counting()));
+////        System.out.println(result);
+//        List<Map.Entry<String, Long>> list = result.entrySet().stream().filter(e -> e.getValue() > 1).toList();
+//        System.out.println(list);
+
+        Map<String, Long> collect = emploedList.stream().collect(Collectors.groupingBy(Emploed::getDepartment, Collectors.counting()));
+        List<Map.Entry<String, Long>> list = collect.entrySet().stream().filter(e -> e.getValue() > 1).toList();
+
         System.out.println(list);
     }
 }
