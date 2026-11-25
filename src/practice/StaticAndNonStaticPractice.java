@@ -1,4 +1,4 @@
-package fileio;
+package practice;
 
 public class StaticAndNonStaticPractice {
     static int i=10;

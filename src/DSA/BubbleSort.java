@@ -7,9 +7,9 @@ public class BubbleSort {
 
         System.out.print("Before sorting the elements ");
 
-        for(int afterSort:nums)
+        for(int beforeSort:nums)
         {
-            System.out.print(afterSort+" ");
+            System.out.print(beforeSort+" ");
         }
 
         for(int i=0; i<=nums.length-1;i++){
